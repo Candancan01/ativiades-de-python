@@ -1,10 +1,11 @@
-print ("seja bem vindo ao sistema ")
-print (" digite 1 para fazer login" , "\n", "digite 2 para termo de uso", "\n", "digite 3 para sair")
-print("\n")
+
 while True:
     try:
+        print ("seja bem vindo ao sistema ")
+        print (" digite 1 para fazer login" , "\n", "digite 2 para termo de uso", "\n", "digite 3 para sair")
+        print("\n")
         opcao=int(input("digite a opção desejada: "))
-        if opcao <1:
+        if opcao <1 or opcao >3:
             print("opção inválida, digite um número entre 1 e 3")
             continue
 

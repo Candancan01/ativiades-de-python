@@ -1,3 +1,5 @@
+print("bem vindo a festa, para entrar precisamos de algumas informações")
+
 while True:
     try:
         idade=int(input("qual é sua idade: "))

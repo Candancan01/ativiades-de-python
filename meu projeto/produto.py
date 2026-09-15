@@ -11,3 +11,7 @@ class produto:
             print(f"Venda realizada com sucesso, qunatidade vendida: {quantidade}")
         else:
             print("quantidade indiponível em estoque")
+
+    def repor (self, quantidade):
+        self.quantidade += quantidade
+        print(f"reposição de intens realizada com sucesso, quantidade reposta: {quantidade}")

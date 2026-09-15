@@ -2,7 +2,7 @@ print("\n" + "=" * 50)
 print("         Seja bem vindo ao carrinho de compras         ")
 print("=" * 50)
 
-nome=input("qual é nome: ")
+nome=input("qual é seu nome: ")
 produto=input("Qual é o produto que vc está comprando: ")
 preco=float(input("preço do produto: "))
 quantidade=int(input("quantos produtos vc está comprando: "))
