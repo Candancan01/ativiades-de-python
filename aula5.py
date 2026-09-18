@@ -16,7 +16,13 @@ while True:
     match opcao:
         case 1:
             nome=input("digite seu nome: ")
-            email=input("digite seu email: ")
+            while True:
+                email=input("digite seu email: ")
+                if email.endswith("@gmail.com"):
+                   break
+                else:
+                   print("email inválido, digite um email válido que possua @gmail.com")
+                   
             senha=input("digite sua senha: ")
             print("login realizado com sucesso")
 
