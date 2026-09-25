@@ -22,9 +22,16 @@ while True:
                    break
                 else:
                    print("email inválido, digite um email válido que possua @gmail.com")
-                   
-            senha=input("digite sua senha: ")
+
+            while True:      
+                senha=input("digite sua senha: ")
+                if len(senha)<8:
+                   print("senha fraca demais, digite uma senha que poussua no mínimo 8 caracteres")
+                else:
+                   break
             print("login realizado com sucesso")
+            print("\n")
+            
 
         case 2:
          print("termo de uso:")
